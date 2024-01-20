@@ -43,7 +43,7 @@
 
 <body>
 
-    <address align="right">
+    <address class="sender-column">
         <em>
             <strong>Dr. Eleanor Gaye </strong><br>
             Awesome Science faculty <br>
@@ -55,7 +55,7 @@
         </em>
     </address>
 
-    <p align="right"><time datetime="2016-01-20"></time>20 January 2016</time></p>
+    <p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>
 
     <address>
         <em>
@@ -72,8 +72,8 @@
     <p>Dear Eileen,</p>
 
     <p> Thank you for your recent application to join us at the University of Awesome's science faculty to study as part
-        of
-        your PhD next year. I will answer your questions one by one, in the following sections.
+        of your <abbr title="Doctor of Philosophy">PhD</abbr> next year. I will answer your questions one by one, in the
+        following sections.
     </p>
 
     <h3>Starting dates</h3>
@@ -84,14 +84,14 @@
     </p>
 
     <ul>
-        <li>First semester: 9 September 2016</li>
-        <li>Second semester: 15 January 2017</li>
-        <li>Third semester: 2 May 2017</li>
+        <li><time datetime="2017-01-15">Second semester: 15 January 2017</time></li>
+        <li><time datetime="2016-09-09">First semester: 9 September 2016</time></li>
+        <li><time datetime="2017-05-02">Third semester: 2 May 2017</time></li>
     </ul>
 
     Please let me know if this is ok, and if so which start date you would prefer.
 
-    You can find more information about <a href="#">important university dates</a> on our website.
+    You can find more information about <a href="http://example.com">important university dates</a> on our website.
 
 
     <h3>Subjects of study</h3>
@@ -104,10 +104,12 @@
         as follows, in order of priority:</p>
 
     <ol>
-        <li>Turning H2O into wine, and the health benefits of Resveratrol (C14H12O3.)</li>
+        <li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
+            (C1<sub>4</sub>H1<sub>2</sub>O<sub>3</sub>.)</li>
         <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the
-            audience size exponentially increases (effect of 3 × 103 increasing to 3 × 104.)</li>
-        <li>HTML and CSS constructs for representing musical scores.</li>
+            audience size exponentially increases (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)</li>
+        <li><abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>
+            constructs for representing musical scores.</li>
     </ol>
 
     So please can you provide more information on each of these subjects, including how long you'd expect the research
@@ -121,7 +123,8 @@
         favourite dances are as follows, with definitions:</p>
     <dl>
         <dt>Polynesian chicken dance</dt>
-        <dd>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in
+        <dd>A little known but very influential dance dating back as far as 300<abbr title="Before Christ">BC</abbr>, a
+            whole village would dance around in
             a
             circle like chickens, to encourage their livestock to be "fruitful".</dd>
         <dt>Icelandic brownian shuffle</dt>
@@ -140,12 +143,13 @@
             Canada. Later on however it was discovered that they were just moving like this because they were really
             cold.</dd>
     </dl>
-    <p>For more of my research, see my <a href="#">exotic dance research page.</a></p>
+    <p>For more of my research, see my <a href="http://example.com">exotic dance research page.</a></p>
 
     <p>Yours sincerely,</p>
     <p>Dr Eleanor Gaye</p>
 
-    <p>University of Awesome motto: "Be awesome to each other." <em>-- The memoirs of Bill S Preston, Esq</em></p>
+    <p>University of Awesome motto: "Be awesome to each other." <em>-- The memoirs of Bill S Preston, <abbr
+                title="Esquire">Esq</abbr></em></p>
 </body>
 
 </html>
